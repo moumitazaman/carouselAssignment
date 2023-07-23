@@ -24,14 +24,7 @@ const images=reactive([
     
 ])
 
-const nextprev = () =>{
-    if(active.value == images.length -1){
-      active.value = 0
-    }
-    else{
-      active.value++
-    }
-  }
+
 </script>
 
 <template>
